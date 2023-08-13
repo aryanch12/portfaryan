@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfaryan/static/css/main.5ce2cd99.css",
+    "main.js": "/portfaryan/static/js/main.2d877efd.js",
+    "static/js/787.dec9761f.chunk.js": "/portfaryan/static/js/787.dec9761f.chunk.js",
+    "static/media/oops.png": "/portfaryan/static/media/oops.dd7e9efa42c027ef2010.png",
+    "static/media/cloth.png": "/portfaryan/static/media/cloth.a51e20f8bc58836b88bf.png",
+    "static/media/dsa.png": "/portfaryan/static/media/dsa.df85dcffd5bf723151d7.png",
+    "static/media/arya.jpeg": "/portfaryan/static/media/arya.c1fd87ee10794ed022db.jpeg",
+    "static/media/todo.png": "/portfaryan/static/media/todo.81350b8efc1149b95566.png",
+    "static/media/js.png": "/portfaryan/static/media/js.99042abb6b780e239731.png",
+    "index.html": "/portfaryan/index.html",
+    "main.5ce2cd99.css.map": "/portfaryan/static/css/main.5ce2cd99.css.map",
+    "main.2d877efd.js.map": "/portfaryan/static/js/main.2d877efd.js.map",
+    "787.dec9761f.chunk.js.map": "/portfaryan/static/js/787.dec9761f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ce2cd99.css",
+    "static/js/main.2d877efd.js"
+  ]
+}
