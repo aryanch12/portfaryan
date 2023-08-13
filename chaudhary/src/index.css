@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.nav_bg {
+  background-color:rgba(229, 227, 224, 0.054);
+  color:black; 
+}
+.navbar {
+  padding: 1rem;
+ 
+}
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:rgb(227, 99, 99)   !important
+}
+
+.navbar-nav {
+  font-size: 1.2rem;
+  
+}
+.nav-item {
+  margin-left: 1rem;
+
+}
+.bg-light{
+  background-color: #f8f9fa!important;
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color:rgb(227, 99, 99)  ;
+}
+.nav-link.active {
+  color:rgb(227, 99, 99)  ;
+  background-color:rgb(227, 99, 99) ;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link.active:hover {
+  background-color:rgb(227, 99, 99)   ;
+}
+.brand-name{
+  color:rgb(227, 99, 99)  !important
+
+}
+
+
+
+
+
+
+
+.btn-get-started {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color:rgb(227, 99, 99)  ;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-get-started:hover {
+  background-color:rgb(227, 99, 99)  ;
+}
+
+
+
+
+
+/* header.css */
+#header {
+  display: flex;
+  align-items: center;
+  height: 80vh; /* Set the height to 100% of the viewport height */
+}
+/* header.css */
+.header-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 50%; /* Set the width to 50% */
+  max-width: 300px; /* Set a maximum width */
+  margin-top: 1rem;
+}
+
+.header-img img {
+  width: 100%; /* Set the image width to 100% */
+  height: auto; /* Maintain the aspect ratio */
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.center-content {
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; /* Center-align the text */
+  padding: 0 4rem; /* Add some horizontal padding */
+}
+
+.center-content h1 {
+  font-size: 2.5rem; /* Increase the font size for h1 */
+}
+
+.center-content h3 {
+  font-size: 1.5rem; /* Increase the font size for h3 */
+  margin-top: 1rem; /* Add margin to the top */
+}
+
+.center-content .btn-get-started {
+  margin-top: 1rem; /* Add margin to the button */
+}
+
+
+
+
+
+@media(max-width:991px){
+  #header{
+    height:80vh;
+    text-align:center;
+  }
+  #header .header-img{
+    text-align: center;
+  }
+  #header .header-img img{
+    width:60%;
+  }
+}
+
+
+
+
+
+
+
